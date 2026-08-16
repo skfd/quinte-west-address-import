@@ -1,0 +1,116 @@
+[city]
+slug = "quinte-west"
+name = "Quinte West"
+# Ward polygons (the 4 former municipalities: Trenton / Frankford / Sidney /
+# Murray), point-tested 2026-08-15 at 99.87% of snapshot-25 addresses (26
+# orphans + the 1 'Prince Edward' overspill row). The obvious-looking
+# alternative, Planning_Districts_2025 (81 polygons), FAILED the probe at
+# 63.19% — it is a settlement-area fabric that leaves 7,440 rural Sidney/
+# Murray addresses outside, and 18 of its (name, district_n) combos are
+# duplicated fragments. The quadtree subdivides each ward to tile size.
+neighbourhoods_url = "https://services3.arcgis.com/cpi3xYswHz1VWunb/ArcGIS/rest/services/Quinte_West_Boundary_Detailed_Public_(Public)/FeatureServer/0/query?where=1%3D1&outFields=mapguide&outSR=4326&f=geojson"
+# First consumer of the declared-field contract (2026-08-15): the name lives
+# in 'mapguide' ("Trenton Ward"), which no sniff list would ever find.
+neighbourhood_name_field = "mapguide"
+
+[source]
+sqlite_path = "C:/Users/kk/Code/ontario-address-changes/data/quinte-west/quinte-west.db"
+
+# Per-city projection recipe (multi-city Tier 2), measured against snapshot 25
+# (2026-08-06, 20,290 active rows).
+[source_fields]
+# street_nam: 99.3% end in a type token, but ALL-CAPS ("ANNA COURT") — the
+# first all-uppercase source in the family. Conflation normalizes case, but
+# any future upload must title-case addr:street; the engine has no such step
+# yet (TODO — do not upload before it exists). 15 rows have no street at all.
+street_from = "street"
+# NOT "full": Quinte West's ADDRESS column is untrustworthy two ways, both
+# measured 2026-08-15 — apostrophe streets carry both spellings concatenated
+# ("16 O'NEIL CRESCENT 16 ONEIL CRESCENT", 389 rows), and on 40 townhouse
+# rows it disagrees with number outright (see [units] below). Synthesize.
+full_from = "number+street"
+# 'ward' IS the former-municipality field here (Sidney 6,879 / Trenton 6,229 /
+# Murray 5,851 / Frankford 1,330 / 'Prince Edward' 1 — a single overspill row
+# past the county line, Guelph's 75-row shape in miniature). Load-bearing for
+# dedup keying: 2 real (number, street) collisions repeat across wards
+# (48 NICHOLAS STREET, 98 PARKVIEW HEIGHTS in Murray + Trenton). No separate
+# political-ward field exists, so [source_fields] ward stays undeclared —
+# declaring the same key twice would be a fiction.
+municipality = "props:ward"
+# unit_num, populated on 945 rows (4.7%); unit_type (TOWNHOUSE/APT/…) rides
+# along in props on 1,373. Declaring it obliges the [units] policy below.
+unit = "unit"
+# Absent, verified against snapshot-25 props (6 keys total — the thinnest
+# source yet, 2026-08-15): no postcode, no status, no ranges, no class.
+# NOTE ALSO: no stable source id — identity is synthesized (number, street,
+# unit) + 5dp geometry, so candidate ids are syn:<sha1> and missing_sample
+# goes through the crc32 path (the Hamilton bug's fix, test-pinned).
+
+# Same decision as Hamilton/Guelph (09-units.md option 2). Measured 2026-08-15
+# on snapshot 25: 20,290 rows -> 19,096 civic groups on (number, street,
+# ward); 449 stacked, 106 without a unit-less representative, 252 with >1
+# unit-less rows (true intra-source duplicates — no stable key upstream).
+# KNOWN CASUALTY, decide before any upload: the 23 GOULD STREET townhouse
+# complex records 40 "units" that are really street-facing civic numbers
+# (unit='58', full='58 GOULD STREET'); collapse-to-civic folds them into one
+# candidate at 23, while OSM likely wants 58 Gould Street as its own address.
+[units]
+policy = "collapse-to-civic"
+
+# 342 rows (1.7%) have no housenumber at all — named features ("Dam 7",
+# "Dam at Sonoco") and unnumbered road frontages, including a typo'd street
+# ("TRENTON-FRNAKFORD ROAD"). What the engine does with number-less
+# candidates is an open question (engine TODO added 2026-08-15); they cannot
+# become OSM addresses as-is.
+
+[run_defaults]
+# Dense Trenton cell (1,029 rows) for first test runs.
+bbox = [44.100, -77.580, 44.112, -77.568]
+overpass_url = "https://overpass-api.de/api/interpreter"
+
+[osm]
+source = "local"
+# Same Ontario PBF as every city in the portfolio.
+pbf_url = "https://download.geofabrik.de/north-america/canada/ontario-latest.osm.pbf"
+# Source-data extent (20,290 rows measured 2026-08-15: lat 44.02011..44.31391,
+# lon -77.75601..-77.41485) plus a small margin. The rectangle's SE corner
+# reaches across the Bay of Quinte toward Prince Edward County — see
+# 10-boundary-clipping.md before trusting edge tiles.
+city_bbox = [44.00, -77.78, 44.33, -77.39]
+extract_dir = "data/osm"
+
+[conflation]
+match_radius_m = 100
+match_near_m = 15
+
+[checks]
+match_far = true
+# suffix_range deliberately absent: no lo_num/hi_num in this source.
+city_duplicate = true
+missing_sample = true
+nearby_street_mismatch = true
+
+[check_params.city_duplicate]
+radius_m = 3.0
+
+[check_params.missing_sample]
+every_nth = 50
+
+[check_params.nearby_street_mismatch]
+radius_m = 20.0
+
+[check_params.match_number_drift]
+slack_m = 2.0
+
+[upload]
+changesets_per_minute = 1
+changeset_comment_template = "{city} Open Data address import, run={run_name}"
+
+[export]
+attribution = "City of Quinte West Open Data"
+# Survey says 86.3% missing (likely greenfield with a 2018 NRCan/CanVec seed,
+# Hamilton's shape — entry-state probe of 2026-08-15 pending at write time;
+# see README). No proposal exists; write and publish one per the OSM Import
+# Guidelines BEFORE any production upload, and title-case the streets first
+# (see [source_fields] street_from).
+import_plan = ""
