@@ -1,0 +1,1611 @@
+{
+  "city": "quinte-west",
+  "bbox": [
+    44.02011,
+    -77.75601,
+    44.31391,
+    -77.41485
+  ],
+  "per_box": {
+    "trenton": {
+      "elements": 380,
+      "users": [
+        [
+          "Matthew Darwin",
+          304
+        ],
+        [
+          "CanadianRob",
+          67
+        ],
+        [
+          "Himk\u00e9",
+          6
+        ],
+        [
+          "Nextwave980",
+          1
+        ],
+        [
+          "CjMalone",
+          1
+        ],
+        [
+          "b-jazz-bot",
+          1
+        ]
+      ],
+      "years": [
+        [
+          "2018",
+          304
+        ],
+        [
+          "2020",
+          67
+        ],
+        [
+          "2024",
+          8
+        ],
+        [
+          "2025",
+          1
+        ]
+      ]
+    },
+    "frankford": {
+      "elements": 299,
+      "users": [
+        [
+          "Matthew Darwin",
+          255
+        ],
+        [
+          "DenisCarriere",
+          29
+        ],
+        [
+          "Cmbc0883",
+          9
+        ],
+        [
+          "DannyMcD",
+          3
+        ],
+        [
+          "andrewpmk",
+          2
+        ],
+        [
+          "Himk\u00e9",
+          1
+        ]
+      ],
+      "years": [
+        [
+          "2015",
+          29
+        ],
+        [
+          "2018",
+          255
+        ],
+        [
+          "2019",
+          3
+        ],
+        [
+          "2023",
+          3
+        ],
+        [
+          "2026",
+          9
+        ]
+      ]
+    },
+    "sidney": {
+      "elements": 326,
+      "users": [
+        [
+          "Matthew Darwin",
+          305
+        ],
+        [
+          "Sedore",
+          21
+        ]
+      ],
+      "years": [
+        [
+          "2015",
+          21
+        ],
+        [
+          "2018",
+          305
+        ]
+      ]
+    }
+  },
+  "users": [
+    [
+      "Matthew Darwin",
+      864
+    ],
+    [
+      "CanadianRob",
+      67
+    ],
+    [
+      "DenisCarriere",
+      29
+    ],
+    [
+      "Sedore",
+      21
+    ],
+    [
+      "Cmbc0883",
+      9
+    ],
+    [
+      "Himk\u00e9",
+      7
+    ],
+    [
+      "DannyMcD",
+      3
+    ],
+    [
+      "andrewpmk",
+      2
+    ],
+    [
+      "Nextwave980",
+      1
+    ],
+    [
+      "CjMalone",
+      1
+    ],
+    [
+      "b-jazz-bot",
+      1
+    ]
+  ],
+  "years": [
+    [
+      "2015",
+      50
+    ],
+    [
+      "2018",
+      864
+    ],
+    [
+      "2019",
+      3
+    ],
+    [
+      "2020",
+      67
+    ],
+    [
+      "2023",
+      3
+    ],
+    [
+      "2024",
+      8
+    ],
+    [
+      "2025",
+      1
+    ],
+    [
+      "2026",
+      9
+    ]
+  ],
+  "kinds": {
+    "node": 974,
+    "way": 31
+  },
+  "changesets": [
+    {
+      "id": 56466998,
+      "user": "Matthew Darwin",
+      "created_at": "2018-02-18T16:07:01Z",
+      "changes": 7819,
+      "tags": {
+        "comment": "City of Quinte West => Quinte West",
+        "created_by": "JOSM/1.5 (13367 en)",
+        "source": "Discussion on talk-ca; NRCan"
+      },
+      "sampled_elements": 864
+    },
+    {
+      "id": 32849267,
+      "user": "Sedore",
+      "created_at": "2015-07-24T13:20:11Z",
+      "changes": 149,
+      "tags": {
+        "comment": "Updated Trenton Proposed Zoning lot",
+        "created_by": "JOSM/1.5 (8491 en)",
+        "source": "Bing"
+      },
+      "sampled_elements": 21
+    },
+    {
+      "id": 90598200,
+      "user": "CanadianRob",
+      "created_at": "2020-09-08T16:50:01Z",
+      "changes": 1662,
+      "tags": {
+        "changesets_count": "12",
+        "comment": "houses south of cn tracks",
+        "created_by": "iD 2.18.4",
+        "host": "https://www.openstreetmap.org/edit",
+        "ideditor:walkthrough_completed": "yes",
+        "ideditor:walkthrough_progress": "welcome;navigation;point;area;line;building;startEditing",
+        "ideditor:walkthrough_started": "yes",
+        "imagery_used": "Bing",
+        "locale": "en-GB"
+      },
+      "sampled_elements": 20
+    },
+    {
+      "id": 29270124,
+      "user": "DenisCarriere",
+      "created_at": "2015-03-05T16:14:47Z",
+      "changes": 25,
+      "tags": {
+        "comment": "Add Addresses Trenton",
+        "created_by": "iD 1.7.0",
+        "imagery_used": "Custom (https://mpac.ilookabout.com/AmpTileServer/?q={u}&AppToken=MPAC_AMP_1383280_B00FB22218E02B82)"
+      },
+      "sampled_elements": 15
+    },
+    {
+      "id": 90609283,
+      "user": "CanadianRob",
+      "created_at": "2020-09-08T23:54:56Z",
+      "changes": 1446,
+      "tags": {
+        "changesets_count": "20",
+        "comment": "Finished Buildings and Houses above Dixon Drive",
+        "created_by": "iD 2.18.4",
+        "host": "https://www.openstreetmap.org/edit",
+        "ideditor:walkthrough_completed": "yes",
+        "ideditor:walkthrough_progress": "welcome;navigation;point;area;line;building;startEditing",
+        "ideditor:walkthrough_started": "yes",
+        "imagery_used": "Bing",
+        "locale": "en-GB"
+      },
+      "sampled_elements": 14
+    },
+    {
+      "id": 29270617,
+      "user": "DenisCarriere",
+      "created_at": "2015-03-05T16:35:57Z",
+      "changes": 83,
+      "tags": {
+        "comment": "Added buildings in Trenton",
+        "created_by": "JOSM/1.5 (8109 en)",
+        "source": "Bing"
+      },
+      "sampled_elements": 14
+    },
+    {
+      "id": 90602347,
+      "user": "CanadianRob",
+      "created_at": "2020-09-08T18:50:23Z",
+      "changes": 1090,
+      "tags": {
+        "changesets_count": "16",
+        "comment": "east side houses",
+        "created_by": "iD 2.18.4",
+        "host": "https://www.openstreetmap.org/edit",
+        "ideditor:walkthrough_completed": "yes",
+        "ideditor:walkthrough_progress": "welcome;navigation;point;area;line;building;startEditing",
+        "ideditor:walkthrough_started": "yes",
+        "imagery_used": "Bing",
+        "locale": "en-GB"
+      },
+      "sampled_elements": 10
+    },
+    {
+      "id": 90608586,
+      "user": "CanadianRob",
+      "created_at": "2020-09-08T23:06:17Z",
+      "changes": 693,
+      "tags": {
+        "changesets_count": "19",
+        "comment": "Houses between West and Sidney",
+        "created_by": "iD 2.18.4",
+        "host": "https://www.openstreetmap.org/edit",
+        "ideditor:walkthrough_completed": "yes",
+        "ideditor:walkthrough_progress": "welcome;navigation;point;area;line;building;startEditing",
+        "ideditor:walkthrough_started": "yes",
+        "imagery_used": "Bing",
+        "locale": "en-GB"
+      },
+      "sampled_elements": 9
+    }
+  ],
+  "conventions": {
+    "sampled": 1005,
+    "keys": [
+      [
+        "addr:housenumber",
+        1005
+      ],
+      [
+        "addr:street",
+        1005
+      ],
+      [
+        "addr:city",
+        949
+      ],
+      [
+        "source",
+        932
+      ],
+      [
+        "building",
+        29
+      ],
+      [
+        "name",
+        16
+      ],
+      [
+        "addr:postcode",
+        15
+      ],
+      [
+        "house",
+        12
+      ],
+      [
+        "addr:province",
+        11
+      ],
+      [
+        "amenity",
+        9
+      ],
+      [
+        "brand",
+        5
+      ],
+      [
+        "brand:wikidata",
+        5
+      ],
+      [
+        "brand:wikipedia",
+        5
+      ],
+      [
+        "operator",
+        4
+      ],
+      [
+        "phone",
+        3
+      ],
+      [
+        "website",
+        3
+      ],
+      [
+        "building:levels",
+        3
+      ],
+      [
+        "shop",
+        3
+      ],
+      [
+        "fax",
+        2
+      ],
+      [
+        "isced:level",
+        2
+      ],
+      [
+        "operator:short",
+        2
+      ],
+      [
+        "operator:type",
+        2
+      ],
+      [
+        "operator:wikidata",
+        2
+      ],
+      [
+        "school:language",
+        2
+      ],
+      [
+        "cuisine",
+        1
+      ]
+    ],
+    "values": {
+      "addr:city": [
+        [
+          "Quinte West",
+          932
+        ],
+        [
+          "Frankford",
+          11
+        ],
+        [
+          "Trenton",
+          6
+        ]
+      ],
+      "addr:housenumber": [
+        [
+          "2",
+          69
+        ],
+        [
+          "1",
+          67
+        ],
+        [
+          "19",
+          32
+        ],
+        [
+          "20",
+          30
+        ],
+        [
+          "11",
+          18
+        ],
+        [
+          "43",
+          16
+        ],
+        [
+          "21",
+          15
+        ],
+        [
+          "12",
+          15
+        ]
+      ],
+      "addr:postcode": [
+        [
+          "K0K 2C0",
+          10
+        ],
+        [
+          "K8V 2T6",
+          2
+        ],
+        [
+          "K8V 6R4",
+          2
+        ],
+        [
+          "K8V 2E9",
+          1
+        ]
+      ],
+      "addr:province": [
+        [
+          "Ontario",
+          11
+        ]
+      ],
+      "addr:street": [
+        [
+          "Maxfield Boulevard",
+          67
+        ],
+        [
+          "Sidney Street",
+          44
+        ],
+        [
+          "Meadow Boulevard",
+          36
+        ],
+        [
+          "Byron Street",
+          34
+        ],
+        [
+          "North Murray Street",
+          32
+        ],
+        [
+          "Mill Street",
+          32
+        ],
+        [
+          "Scott Avenue",
+          30
+        ],
+        [
+          "Eastview Boulevard",
+          25
+        ]
+      ],
+      "building": [
+        [
+          "house",
+          12
+        ],
+        [
+          "residential",
+          7
+        ],
+        [
+          "apartments",
+          5
+        ],
+        [
+          "yes",
+          4
+        ],
+        [
+          "commercial",
+          1
+        ]
+      ],
+      "source": [
+        [
+          "CanVec 6.0 - NRCan",
+          932
+        ]
+      ]
+    },
+    "addr_combos": [
+      [
+        "addr:city+addr:housenumber+addr:street",
+        936
+      ],
+      [
+        "addr:housenumber+addr:street",
+        54
+      ],
+      [
+        "addr:city+addr:housenumber+addr:postcode+addr:province+addr:street",
+        9
+      ],
+      [
+        "addr:city+addr:housenumber+addr:postcode+addr:street",
+        4
+      ],
+      [
+        "addr:housenumber+addr:postcode+addr:province+addr:street",
+        2
+      ]
+    ]
+  },
+  "wiki": {
+    "Canada:Ontario:Quinte West": {
+      "exists": false
+    },
+    "Quinte West": {
+      "exists": false
+    }
+  },
+  "recent_changesets": [
+    {
+      "id": "187512203",
+      "user": "Thomasje",
+      "created_at": "2026-08-15T23:50:40Z",
+      "changes": 16,
+      "comment": "Dutch localizations timezones",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187490256",
+      "user": "KevinMapsThings",
+      "created_at": "2026-08-15T13:59:31Z",
+      "changes": 2,
+      "comment": "Convert Sandy Pond - Quebec power route to circuit relation",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187449091",
+      "user": "Hensor",
+      "created_at": "2026-08-14T15:20:38Z",
+      "changes": 23,
+      "comment": "puse un edificio en alaska",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187430289",
+      "user": "woodpeck",
+      "created_at": "2026-08-14T09:11:47Z",
+      "changes": 190,
+      "comment": "delete historic=battlefield added by Jobigutenburg, see https://www.openstreetmap.org/changeset/179566483",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187423545",
+      "user": "rollercoasting",
+      "created_at": "2026-08-14T06:23:23Z",
+      "changes": 16,
+      "comment": "Add comprehensive Japanese localization (name:ja, ja-Latn, ja-Kana, ja-Hira) and alt_names to major continent and ocean nodes",
+      "source": "standard geographic names; ALA-LC Romanization of Japanese",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187409990",
+      "user": "marvin3",
+      "created_at": "2026-08-13T19:54:58Z",
+      "changes": 12,
+      "comment": "Spelling of Output-Power corrected.",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187378660",
+      "user": "Idahooligan-1",
+      "created_at": "2026-08-13T09:05:36Z",
+      "changes": 22,
+      "comment": "Created 3 benches, 3 unknown objects, and 5 other objects; Updated 4 shelters, 3 restaurants, and 4 other objects",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187368941",
+      "user": "confusedbuffalo-bot",
+      "created_at": "2026-08-13T04:10:05Z",
+      "changes": 5,
+      "comment": "Ontario (Canada): Automatically fix phone number issues: missing country code, extra punctuation",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187344567",
+      "user": "felixcrux",
+      "created_at": "2026-08-12T14:46:08Z",
+      "changes": 2,
+      "comment": "Survey if places still exist",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187341365",
+      "user": "API_SIS67_FME",
+      "created_at": "2026-08-12T13:40:00Z",
+      "changes": 3,
+      "comment": "Renseignement de l'adresse pr\u00e9cise sur le b\u00e2timent de la caserne",
+      "source": "SIS67",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187282487",
+      "user": "CjMalone",
+      "created_at": "2026-08-11T12:22:03Z",
+      "changes": 89,
+      "comment": "Add Mucho Burrito website",
+      "source": "Mucho Burrito website",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187277646",
+      "user": "Malaalaa",
+      "created_at": "2026-08-11T10:42:54Z",
+      "changes": 3,
+      "comment": "name:wal added",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187234536",
+      "user": "Vi2727",
+      "created_at": "2026-08-10T14:07:49Z",
+      "changes": 13,
+      "comment": "Fixed \"privateq\" to private (USA)",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187219005",
+      "user": "user_5589",
+      "created_at": "2026-08-10T09:04:42Z",
+      "changes": 2,
+      "comment": "Fixed with Osmose",
+      "source": "Osmose",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187216106",
+      "user": "mueschel",
+      "created_at": "2026-08-10T08:03:26Z",
+      "changes": 33,
+      "comment": "remove 'way:creation' tags added by Pucciotrex30. No response to changeset comment",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187209584",
+      "user": "FreshlyTweezed",
+      "created_at": "2026-08-10T04:42:50Z",
+      "changes": 81,
+      "comment": "Ontario: Fix opening hours issues",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187190791",
+      "user": "FreshlyTweezed",
+      "created_at": "2026-08-09T17:04:15Z",
+      "changes": 43,
+      "comment": "Ontario: Fix opening hours issues",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187161311",
+      "user": "FreshlyTweezed",
+      "created_at": "2026-08-09T05:06:07Z",
+      "changes": 200,
+      "comment": "Ontario: Fix opening hours issues",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187158029",
+      "user": "ZeLonewolf",
+      "created_at": "2026-08-09T00:47:21Z",
+      "changes": 86,
+      "comment": "Remove MSA and \u03bcSA boundary relations",
+      "source": "Community consensus to remove these objects from OSM as documented at https://community.openstreetmap.org/t/metropolitan-micropolitan-statistical-areas/146177",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187133926",
+      "user": "Russ",
+      "created_at": "2026-08-08T13:18:40Z",
+      "changes": 82,
+      "comment": "Power mapping",
+      "source": "Esri World Imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187099929",
+      "user": "bibi6",
+      "created_at": "2026-08-07T17:43:36Z",
+      "changes": 14,
+      "comment": "Remove/replace isolated deprecated tags (bridge=arch, hazard=bicycle)",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187099473",
+      "user": "RandomMapGuy",
+      "created_at": "2026-08-07T17:33:55Z",
+      "changes": 19,
+      "comment": "fixme tag corrected",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187098634",
+      "user": "bibi6",
+      "created_at": "2026-08-07T17:11:31Z",
+      "changes": 9,
+      "comment": "Remove/replace isolated deprecated tags (shop=lingerie, man_made=hot_water_tank)",
+      "source": "deprecated features",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187097338",
+      "user": "bibi6",
+      "created_at": "2026-08-07T16:48:06Z",
+      "changes": 35,
+      "comment": "Remove/replace isolated deprecated tags (shop=gallery) and add buildings",
+      "source": "deprecated features;Bing",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187063652",
+      "user": "DENelson83",
+      "created_at": "2026-08-07T03:15:13Z",
+      "changes": 70,
+      "comment": "Standardize tagging for FAA area control centers",
+      "source": "Wikipedia; FAA; City of Memphis",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "187039721",
+      "user": "bibi6",
+      "created_at": "2026-08-06T15:04:44Z",
+      "changes": 26,
+      "comment": "Remove/repalce isolated deprecated tags (landuse=pond; natural=marsh)",
+      "source": "deprecated features",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186936165",
+      "user": "Tuwewanzi",
+      "created_at": "2026-08-04T16:52:05Z",
+      "changes": 25,
+      "comment": "Dakota and Lakota Canadian Province and Territory Names from D\u00fazaha\u019e M\u00e1niwi\u019e writings (2007)",
+      "source": "\"Dakota Iapi Ehdakub\" Doris Pratt (D\u00fazaha\u019e M\u00e1ni Wi\u019e) 2007",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186897920",
+      "user": "CAM-Gerlach_Repair",
+      "created_at": "2026-08-04T01:08:18Z",
+      "changes": 29,
+      "comment": "Mass-remove SEO spam added by @misty870808 for service call POIs with malformed tags that are very unlikely to verifiably exist at the indicated locations, and are likely to be part of a lead generation scam",
+      "source": "Bing; Esri World Imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186892072",
+      "user": "SteefdeB",
+      "created_at": "2026-08-03T21:06:21Z",
+      "changes": 3,
+      "comment": "Created a bar, a chalet, and an unknown object",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186860650",
+      "user": "mueschel",
+      "created_at": "2026-08-03T10:01:55Z",
+      "changes": 2,
+      "comment": "'payment:monyx'",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186848445",
+      "user": "confusedbuffalo-bot",
+      "created_at": "2026-08-03T05:08:59Z",
+      "changes": 4,
+      "comment": "Ontario (Canada): Automatically fix phone number issues: missing country code, extra punctuation",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186838725",
+      "user": "wolfy1339",
+      "created_at": "2026-08-02T22:21:19Z",
+      "changes": 5,
+      "comment": "Invalid changing phone number format, and changing https to http",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186836665",
+      "user": "Saad chaoui",
+      "created_at": "2026-08-02T21:26:08Z",
+      "changes": 15,
+      "comment": "\u0625\u0636\u0627\u0641\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0623\u0645\u0627\u0632\u064a\u063a\u064a\u0629 (name:ber)",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186815199",
+      "user": "Adam Ferreira",
+      "created_at": "2026-08-02T14:54:20Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186794314",
+      "user": "kukuk",
+      "created_at": "2026-08-02T07:23:25Z",
+      "changes": 9,
+      "comment": "Fix direction of costline",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186758796",
+      "user": "Davileci",
+      "created_at": "2026-08-01T11:47:35Z",
+      "changes": 721,
+      "comment": "Restore images from Wayback Machine",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186755431",
+      "user": "Acccount",
+      "created_at": "2026-08-01T10:23:52Z",
+      "changes": 580,
+      "comment": "all i can say is i hope the satellite imagery here is up-to-date enough",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186744960",
+      "user": "confusedbuffalo-bot",
+      "created_at": "2026-08-01T05:28:02Z",
+      "changes": 3,
+      "comment": "Ontario (Canada): Automatically fix phone number issues: missing country code, extra punctuation",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186742878",
+      "user": "Tuwewanzi",
+      "created_at": "2026-08-01T04:03:57Z",
+      "changes": 11,
+      "comment": "Dakota and Lakota names for European nations",
+      "source": "New Lakota Dictionary;Dakhod Iapi Wichoie Wowapi",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186742421",
+      "user": "Tuwewanzi",
+      "created_at": "2026-08-01T03:46:39Z",
+      "changes": 3,
+      "comment": "Dakota/Lakota names on US States",
+      "source": "New Lakota Dictionary;Dakhod Iapi Wichoie Wowapi",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186739226",
+      "user": "vueltaconicarus",
+      "created_at": "2026-08-01T01:42:54Z",
+      "changes": 3,
+      "comment": "Toronto, Gananoque: Updated some POIs relevant to vegetarians",
+      "source": "Local visit",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186734456",
+      "user": "remila",
+      "created_at": "2026-07-31T22:58:53Z",
+      "changes": 4,
+      "comment": "Survey if places still exist",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186631600",
+      "user": "confusedbuffalo-bot",
+      "created_at": "2026-07-30T09:06:19Z",
+      "changes": 3,
+      "comment": "Ontario (Canada): Automatically fix phone number issues: missing country code, extra punctuation",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186630380",
+      "user": "CAM-Gerlach_Repair",
+      "created_at": "2026-07-30T08:38:25Z",
+      "changes": 6,
+      "comment": "Apply remaining correct autofix suggestions for invalid opening_hours=* in New York state",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186514830",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-28T11:54:48Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186471381",
+      "user": "MacLondon",
+      "created_at": "2026-07-27T17:16:09Z",
+      "changes": 151,
+      "comment": "Improved PTv2 compliance",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186436624",
+      "user": "Ma4G",
+      "created_at": "2026-07-27T05:51:47Z",
+      "changes": 30,
+      "comment": "Ontario: Fix opening hours issues",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186346641",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-25T13:30:58Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186343728",
+      "user": "nhhecker",
+      "created_at": "2026-07-25T12:30:30Z",
+      "changes": 3,
+      "comment": "Specify whether roads have sidewalks",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186341725",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-25T11:44:09Z",
+      "changes": 12,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186336103",
+      "user": "Ethan Grobin",
+      "created_at": "2026-07-25T09:24:31Z",
+      "changes": 108,
+      "comment": "Tag Cleanup (four_square related) Americas (I am splitting changesets now:) )",
+      "source": "Esri World Imagery; Bing",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186328291",
+      "user": "Cmbc0883",
+      "created_at": "2026-07-25T04:42:28Z",
+      "changes": 292,
+      "comment": "adding and adjusting features",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186321633",
+      "user": "woodpeck_repair",
+      "created_at": "2026-07-24T22:44:56Z",
+      "changes": 3227,
+      "comment": "revert airport edits by user olehz - United States",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186321436",
+      "user": "woodpeck_repair",
+      "created_at": "2026-07-24T22:40:34Z",
+      "changes": 565,
+      "comment": "revert airport edits by user olehz - France",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186321388",
+      "user": "woodpeck_repair",
+      "created_at": "2026-07-24T22:39:32Z",
+      "changes": 229,
+      "comment": "revert airport edits by user olehz - Canada",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186318354",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-24T21:10:48Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186318294",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-24T21:09:09Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186275790",
+      "user": "confusedbuffalo-bot",
+      "created_at": "2026-07-24T06:21:48Z",
+      "changes": 4,
+      "comment": "Ontario (Canada): Automatically fix phone number issues: missing country code, extra punctuation",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186255197",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-23T19:50:32Z",
+      "changes": 7,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186232771",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-23T12:54:49Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186222498",
+      "user": "sarowi17",
+      "created_at": "2026-07-23T09:23:03Z",
+      "changes": 38,
+      "comment": "modified roads",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186215963",
+      "user": "Taya_S",
+      "created_at": "2026-07-23T06:46:19Z",
+      "changes": 96,
+      "comment": "Reverted edits by user \"Kalle888\"",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186213865",
+      "user": "PedestrianMapping_CartoBypass",
+      "created_at": "2026-07-23T05:44:08Z",
+      "changes": 39,
+      "comment": "Modified Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186212608",
+      "user": "PedestrianMapping_GridHop",
+      "created_at": "2026-07-23T04:56:49Z",
+      "changes": 43,
+      "comment": "Created Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186200279",
+      "user": "Kalle888",
+      "created_at": "2026-07-22T20:48:38Z",
+      "changes": 12,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186200231",
+      "user": "scarapella",
+      "created_at": "2026-07-22T20:47:36Z",
+      "changes": 21,
+      "comment": "waterway=put_in is not really a known or supported tag.  waterway=access_point canoe=yes is much more common and supported",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186199700",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T20:36:52Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186197352",
+      "user": "Kalle888",
+      "created_at": "2026-07-22T19:51:52Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186197336",
+      "user": "Kalle888",
+      "created_at": "2026-07-22T19:51:23Z",
+      "changes": 22,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186182817",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T14:49:47Z",
+      "changes": 12,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186172080",
+      "user": "CjMalone",
+      "created_at": "2026-07-22T11:23:44Z",
+      "changes": 190,
+      "comment": "Add/update Nordstrom Rack websites",
+      "source": "Nordstrom Rack website",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186170639",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T10:50:07Z",
+      "changes": 12,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186166172",
+      "user": "G milli",
+      "created_at": "2026-07-22T09:15:33Z",
+      "changes": 12,
+      "comment": "Created 4 viewpoints, 3 guest_houses, and 5 other objects",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186164532",
+      "user": "PedestrianMapping_GridBypass",
+      "created_at": "2026-07-22T08:43:26Z",
+      "changes": 10,
+      "comment": "Added Sidewalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186155019",
+      "user": "PedestrianMapping_WayRelay",
+      "created_at": "2026-07-22T04:40:18Z",
+      "changes": 59,
+      "comment": "Created Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150491",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:08:30Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150391",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:04:28Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150354",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:03:10Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150321",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:02:08Z",
+      "changes": 13,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186150255",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-22T02:00:03Z",
+      "changes": 7,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186135703",
+      "user": "Ryan Vilela",
+      "created_at": "2026-07-21T19:16:58Z",
+      "changes": 21,
+      "comment": "Updated Speed Limit to 50 km/h.",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186134394",
+      "user": "Ryan Vilela",
+      "created_at": "2026-07-21T18:51:40Z",
+      "changes": 2,
+      "comment": "Updated Speed Limit to 50 km/h.",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186126455",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-21T16:28:29Z",
+      "changes": 18,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186126447",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-21T16:28:17Z",
+      "changes": 18,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186126349",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-21T16:26:49Z",
+      "changes": 17,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186098516",
+      "user": "confusedbuffalo-bot",
+      "created_at": "2026-07-21T06:46:27Z",
+      "changes": 3,
+      "comment": "Ontario (Canada): Automatically fix phone number issues: missing country code, extra punctuation",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186028459",
+      "user": "Craigue & Co",
+      "created_at": "2026-07-19T21:30:50Z",
+      "changes": 37,
+      "comment": "Various updates, additions, and corrections in Vermont and New Hampshire.",
+      "source": "aerial imagery;survey;gps;osm notes;streetlevel imagery;local knowledge",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186014646",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-19T15:54:24Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186009048",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-19T13:56:51Z",
+      "changes": 16,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "186009030",
+      "user": "Adam Ferreira",
+      "created_at": "2026-07-19T13:56:25Z",
+      "changes": 14,
+      "comment": "",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185992579",
+      "user": "Ma4G",
+      "created_at": "2026-07-19T07:29:23Z",
+      "changes": 60,
+      "comment": "Ontario: Fix opening hours issues",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185989070",
+      "user": "whitepanda",
+      "created_at": "2026-07-19T04:58:57Z",
+      "changes": 7,
+      "comment": "Barrier connected to the highway #maproulette #tomtom mpr.lt/c/53795/t/317520648",
+      "source": "Esri World Imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185980032",
+      "user": "Anonymous Private",
+      "created_at": "2026-07-18T21:39:31Z",
+      "changes": 2,
+      "comment": "the village \"Maru\" had been assigned to the wrong area. that area is part of Harima.I also added an apartment complex in Plover WI",
+      "source": "local knowledge;survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185928919",
+      "user": "AKirbo",
+      "created_at": "2026-07-17T21:06:50Z",
+      "changes": 16,
+      "comment": "Rush Truck Centres of Canada - Belleville",
+      "source": "",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185902202",
+      "user": "CjMalone",
+      "created_at": "2026-07-17T12:19:29Z",
+      "changes": 621,
+      "comment": "Update Flying J/Pilor website and add contact details",
+      "source": "website",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185883641",
+      "user": "PedestrianMapping_CartoBypass",
+      "created_at": "2026-07-17T05:03:29Z",
+      "changes": 57,
+      "comment": "Created Sidewalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185881861",
+      "user": "PedestrianMapping_CartoBypass",
+      "created_at": "2026-07-17T03:55:46Z",
+      "changes": 5,
+      "comment": "Created Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185881737",
+      "user": "PedestrianMapping_MapPhantom",
+      "created_at": "2026-07-17T03:50:59Z",
+      "changes": 38,
+      "comment": "Added Sidewalks and Crosswalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185881730",
+      "user": "JuanElDemografo",
+      "created_at": "2026-07-17T03:50:46Z",
+      "changes": 8,
+      "comment": "POIs in DFW airport and London I'm so sorry for box size",
+      "source": "survey",
+      "import": "",
+      "import_page": ""
+    },
+    {
+      "id": "185881558",
+      "user": "PedestrianMapping_CartoBypass",
+      "created_at": "2026-07-17T03:42:14Z",
+      "changes": 76,
+      "comment": "Added Sidewalks",
+      "source": "aerial imagery",
+      "import": "",
+      "import_page": ""
+    }
+  ]
+}

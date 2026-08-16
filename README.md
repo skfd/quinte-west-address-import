@@ -22,8 +22,17 @@ Source data: City of Quinte West address points via the sibling
 [`ontario-address-changes`](https://github.com/skfd/ontario-address-changes)
 tracker (`data/quinte-west/quinte-west.db`, 20,290 active rows / 19,096 civic
 addresses at snapshot 25, 2026-08-06). The 2026-08-12 portfolio survey put
-the gap at 16,315 missing (86.3%) — an import target, pending the entry-state
-probe's provenance read (evidence in `onboarding/` once run).
+the gap at 16,315 missing (86.3%).
+
+Entry state probed 2026-08-15 (`onboarding/entry-state-2026-08-15.json`):
+**greenfield**, Hamilton's exact shape — 932 of 1,005 sampled elements are
+CanVec 6.0 NRCan loose nodes (97% nodes, 3% ways); the 2018 "peak" is Matthew
+Darwin's `City of Quinte West => Quinte West` rename retag, not new data;
+organic building/address mapping by `CanadianRob` in 2020; no wiki page, no
+import tags, no recent activity. An import target. Courtesy contacts before
+the first visible changeset: Matthew Darwin (Ontario-wide maintainer, did the
+rename sweep) and CanadianRob (mapped Trenton houses by hand in 2020).
+Existing convention: `addr:city=Quinte West` (932 vs 17 Frankford/Trenton).
 
 Distinctive traits, all measured 2026-08-15 (details in config comments):
 ALL-CAPS street names (title-casing needed before any upload — engine TODO);
