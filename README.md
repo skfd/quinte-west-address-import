@@ -35,7 +35,8 @@ rename sweep) and CanadianRob (mapped Trenton houses by hand in 2020).
 Existing convention: `addr:city=Quinte West` (932 vs 17 Frankford/Trenton).
 
 Distinctive traits, all measured 2026-08-15 (details in config comments):
-ALL-CAPS street names (title-casing needed before any upload — engine TODO);
+ALL-CAPS street names (title-cased on export since 2026-08-29,
+`[export] street_case`);
 no stable source key (synthetic identities); an untrustworthy combined
 address column; 342 number-less named-feature rows (dams); tiles subdivide
 the 4 former-municipality ward polygons via the declared-field contract

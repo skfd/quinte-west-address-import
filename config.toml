@@ -20,9 +20,10 @@ sqlite_path = "C:/Users/kk/Code/ontario-address-changes/data/quinte-west/quinte-
 # (2026-08-06, 20,290 active rows).
 [source_fields]
 # street_nam: 99.3% end in a type token, but ALL-CAPS ("ANNA COURT") — the
-# first all-uppercase source in the family. Conflation normalizes case, but
-# any future upload must title-case addr:street; the engine has no such step
-# yet (TODO — do not upload before it exists). 15 rows have no street at all.
+# first all-uppercase source in the family, and the source that forced the
+# engine's title-caser. Conflation normalizes case; the upload is handled by
+# [export] street_case below (2026-08-29), so this no longer gates anything.
+# 15 rows have no street at all.
 street_from = "street"
 # NOT "full": Quinte West's ADDRESS column is untrustworthy two ways, both
 # measured 2026-08-15 — apostrophe streets carry both spellings concatenated
@@ -111,6 +112,12 @@ attribution = "City of Quinte West Open Data"
 # Survey says 86.3% missing (likely greenfield with a 2018 NRCan/CanVec seed,
 # Hamilton's shape — entry-state probe of 2026-08-15 pending at write time;
 # see README). No proposal exists; write and publish one per the OSM Import
-# Guidelines BEFORE any production upload, and title-case the streets first
-# (see [source_fields] street_from).
+# Guidelines BEFORE any production upload.
 import_plan = ""
+
+# The source shouts: "ANNA COURT", "O'NEIL CRESCENT". Title-cased on the export
+# path only, so street_raw keeps the source's spelling and conflation is
+# untouched. Swept over all 853 distinct street names 2026-08-29 — no all-caps
+# word survives, and the two railway-crossing roads ("CNR/WALLBRIDGE-LOYALIST
+# ROAD") were what taught the step to split on a slash.
+street_case = "title"
